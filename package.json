@@ -1,0 +1,22 @@
+{
+  "name": "portscanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "compile": "tsc -p . ",
+    "build": "npm run compile",
+    "start": "npm run build && node lib/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "cli-progress": "^3.3.1"
+  }
+}
